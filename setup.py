@@ -3,7 +3,7 @@ import setuptools
 
 setuptools.setup(
     name="xlog",
-    version="0.0.2",
+    version="0.0.3",
     description="Xbiome pipeline log frame",
     long_description_content_type="text/markdown",
     author="xbiome-it",
