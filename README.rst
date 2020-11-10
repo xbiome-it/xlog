@@ -39,8 +39,6 @@ Features
 Take the tour
 -------------
 
-.. highlight:: python3
-
 Ready to use it with simple method.
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
