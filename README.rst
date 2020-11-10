@@ -116,5 +116,25 @@ Ready to use it with simple method.
 
 OutPut Example:
 -----------------
-
+Python 3.8.6 (default, Oct  8 2020, 14:06:32)
+[Clang 12.0.0 (clang-1200.0.32.2)] on darwin
+Type "help", "copyright", "credits" or "license" for more information.
+>>> from xlog import xlog
+>>> xlog.init('16s','./')
+>>> xlog.logger('This is a INFO log test!!!','INFO')
+2020-11-10 15:26:23.651 | INFO     | xlog.xlog:logger:19 - This is a INFO log test!!!
+>>> xlog.logger('This is a DEBUG log test!!!','DEBUG')
+2020-11-10 15:26:35.576 | DEBUG    | xlog.xlog:logger:21 - This is a DEBUG log test!!!
+>>> xlog.logger('This is a ERROR log test!!!','ERROR')
+2020-11-10 15:26:48.738 | ERROR    | xlog.xlog:logger:23 - This is a ERROR log test!!!
+>>> exit()
+ koko@kokoMac  ~  cat 16s_2020-11-10_INFO.log
+2020-11-10-15:26:23  |  INFO  |  This is a INFO log test!!!
+2020-11-10-15:26:48  |  ERROR  |  This is a ERROR log test!!!
+ koko@kokoMac  ~  cat 16s_2020-11-10_DEBUG.log
+2020-11-10-15:26:23  |  INFO  |  This is a INFO log test!!!
+2020-11-10-15:26:35  |  DEBUG  |  This is a DEBUG log test!!!
+2020-11-10-15:26:48  |  ERROR  |  This is a ERROR log test!!!
+ koko@kokoMac  ~  cat 16s_2020-11-10_ERROR.log
+2020-11-10-15:26:48  |  ERROR  |  This is a ERROR log test!!!
 	
