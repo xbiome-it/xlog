@@ -123,16 +123,9 @@ OutPut Example:
 
 >>> xlog.logger('This is a INFO log test!!!','INFO')
 
-2020-11-10 15:26:23.651 | INFO     | xlog.xlog:logger:19 - This is a INFO log test!!!
-
 >>> xlog.logger('This is a DEBUG log test!!!','DEBUG')
 
-2020-11-10 15:26:35.576 | DEBUG    | xlog.xlog:logger:21 - This is a DEBUG log test!!!
-
 >>> xlog.logger('This is a ERROR log test!!!','ERROR')
-
-2020-11-10 15:26:48.738 | ERROR    | xlog.xlog:logger:23 - This is a ERROR log test!!!
-
 
 
 	cat 16s_2020-11-10_INFO.log
