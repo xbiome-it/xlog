@@ -17,7 +17,8 @@
 
 =========
 
-**Xlog** Xbime logging Frame in Python.
+**Xlog** 
+Xbime logging Frame in Python.
 
 
 .. end-of-readme-intro
