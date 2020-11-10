@@ -36,7 +36,7 @@ Features
 
 * Format the pipeline logging.
 
-.. highlight:: shell
+.. highlight:: php
 
 Take the tour
 -------------
