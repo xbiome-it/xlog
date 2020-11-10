@@ -41,7 +41,7 @@ Take the tour
 
 Ready to use it with simple method.
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
+::
 
     from xlog import xlog
 
