@@ -36,7 +36,7 @@ Features
 
 * Format the pipeline logging.
 
-.. highlight:: java
+.. highlight:: shell
 
 Take the tour
 -------------
