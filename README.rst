@@ -135,19 +135,18 @@ OutPut Example:
 
 After that we will get three files: 
 
-::
 In 16s_2020-11-10_INFO.log
-
-2020-11-10-15:26:23  |  INFO  |  This is a INFO log test!!!
-2020-11-10-15:26:48  |  ERROR  |  This is a ERROR log test!!!
-
 ::
+
+	2020-11-10-15:26:23  |  INFO  |  This is a INFO log test!!!
+	2020-11-10-15:26:48  |  ERROR  |  This is a ERROR log test!!!
+
 In 16s_2020-11-10_DEBUG.log
-
-2020-11-10-15:26:23  |  INFO  |  This is a INFO log test!!!
-2020-11-10-15:26:35  |  DEBUG  |  This is a DEBUG log test!!!
-2020-11-10-15:26:48  |  ERROR  |  This is a ERROR log test!!!
-
 ::
+	2020-11-10-15:26:23  |  INFO  |  This is a INFO log test!!!
+	2020-11-10-15:26:35  |  DEBUG  |  This is a DEBUG log test!!!
+	2020-11-10-15:26:48  |  ERROR  |  This is a ERROR log test!!!
+
 In 16s_2020-11-10_ERROR.log
-2020-11-10-15:26:48  |  ERROR  |  This is a ERROR log test!!!	
+::
+	2020-11-10-15:26:48  |  ERROR  |  This is a ERROR log test!!!	
