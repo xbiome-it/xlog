@@ -45,9 +45,9 @@ Ready to use it with simple method.
 
     from xlog import xlog
 
-    xlog.init('ProjectName','LogPath','LogLevel')
+    xlog.init('ProjectName','LogPath')
 
-    xlog.logger('YourMessage')
+    xlog.logger('YourMessage','LogLevel')
 
 OutPut Example:
 -----------------
